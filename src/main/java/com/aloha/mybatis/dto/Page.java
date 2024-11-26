@@ -17,7 +17,7 @@ public class Page {
     private int count;
     private int total;
 
-    // ⭐ 수식 정보
+    
     private int start;
     private int end;
     private int first;
