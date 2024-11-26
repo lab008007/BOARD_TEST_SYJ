@@ -6,12 +6,12 @@ import lombok.Data;
 
 @Data
 public class Page {
-    // 페이징 기본값
+    
     private static final int PAGE_NUM = 1;  
     private static final int ROWS = 10;      
     private static final int COUNT = 10;     
 
-    // ✅ 필수 정보
+    
     private int page;
     private int rows;
     private int count;
